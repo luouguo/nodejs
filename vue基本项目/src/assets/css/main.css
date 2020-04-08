@@ -1,0 +1,113 @@
+body {
+}
+
+/* 导航 */
+.navbar .navbar-form .input-group-btn{
+ position: relative;
+ top: -1px;
+}
+
+/* 搜索 */
+.form-right .input-group-btn{
+  position: relative;
+  top: -1px;
+}
+/* 提问问题按钮 */
+.add-question {
+  margin-top: 21px;
+}
+
+/* 主体内容 */
+.warp{
+  padding-top: 70px;
+  padding-bottom: 180px;
+
+}
+
+/* 右边关键字 */
+.keywords .label {
+  font-size: 100%;
+  font-weight: normal;
+  line-height: 1.9em;
+  cursor: pointer;
+}
+
+
+/* 问题列表 */
+.question > .media{
+  padding-bottom: 5px;
+}
+.question > .media h4 a {
+  color: #333;
+  text-decoration: none;
+}
+.question > .media  h4 a:hover{
+  color: green;
+  text-decoration: none;
+}
+.question .keys{
+  margin-top: 3px;
+  margin-bottom: 8px;
+}
+.question .time{
+  color: #999;
+}
+/* 首页问题列表 */
+.home-question > .media{
+  border-bottom: 1px solid #eee;
+  padding-bottom: 5px;
+}
+
+
+/* 页面左边标题 */
+.page-left-title{
+  margin-top: 0;
+  margin-bottom: 30px;
+  padding-bottom: 18px;
+  /* background-color: #f3f3f3; */
+  border-bottom: 1px solid #eee;
+}
+
+/* 登录注册页面 */
+
+
+
+/* 底部 */
+#footer{
+  height: 160px;
+  background-color: #2a2730;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+.footer{
+  color: #99979c;
+  padding-top: 25px;
+}
+.footer .footer-link{
+  padding: 25px 0;
+  margin-left: -10px;
+}
+.footer .footer-link a{
+  display: inline-block;
+  padding: 0 10px;
+  color: #fff;
+  font-size: 14px;
+
+}
+
+/* 详情 */
+.title{
+  font-size: 24px;
+  font-weight: 700;
+  color: rgb(231, 102, 102);
+  margin: 10px 0;
+}
+.content{
+  font-size: 18px;
+  margin: 10px 5px;
+}
+.time{
+  margin-right: 20px;
+}
